@@ -30,9 +30,7 @@
       (royal-hemlock/background            "#FFFFF9")
       (royal-hemlock/cursor                "#BFFFFF")
       (royal-hemlock/highlight-background  "#3FFFFF")
-      (royal-hemlock/link-visited          "#5D00BB")
       (royal-hemlock/majestic-hemlock      "#0000BB")
-      (royal-hemlock/number                "#BF2FBF")            
       (royal-hemlock/string                "#007F00")
       (royal-hemlock/text-colour           "#3F3F3F"))
 
