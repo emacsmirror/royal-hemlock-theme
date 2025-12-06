@@ -3,6 +3,7 @@
 ;; Copyright (C) 2025 vs-123
 
 ;; Author: vs-123 (GitHub)
+;; Homepage: https://github.com/vs-123/royal-hemlock-theme
 ;; Url: https://github.com/vs-123/royal-hemlock-theme
 ;; Version: 1.0
 ;; Filename: royal-hemlock-theme.el
@@ -19,7 +20,7 @@
 
 ;;; Code:
 
-(deftheme royal-hemlock "Royal Hemlock Theme -- by vs-123")
+(deftheme royal-hemlock-theme "Royal Hemlock Theme -- by vs-123")
 
 (let ((class '((class color) (min-colors 24)))
       (royal-hemlock/black                 "#000000")
