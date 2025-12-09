@@ -1,4 +1,4 @@
-;;; royal-hemlock-theme.el --- Soothing royal-blue light-theme -*- lexical-binding: t; -*-
+;;; royal-hemlock-theme.el --- Soothing royal-blue light-theme. -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025 vs-123
 
@@ -20,7 +20,7 @@
 
 ;;; Code:
 
-(deftheme royal-hemlock-theme "Royal Hemlock Theme -- by vs-123")
+(deftheme royal-hemlock "Royal Hemlock Theme -- by vs-123.")
 
 (let ((class '((class color) (min-colors 24)))
       (royal-hemlock/black                 "#000000")
@@ -38,7 +38,7 @@
    'royal-hemlock
 
    `(cursor  ((,class (:foreground ,royal-hemlock/white       :background ,royal-hemlock/black))))
-   `(default ((,class (:foreground ,royal-hemlock/text-colour :background ,royal-hemlock/background)))) 
+   `(default ((,class (:foreground ,royal-hemlock/text-colour :background ,royal-hemlock/background))))
    `(isearch ((,class (:foreground ,royal-hemlock/black       :background ,royal-hemlock/highlight-background :weight bold))))
    `(region  ((,class (:foreground ,royal-hemlock/black       :background ,royal-hemlock/cursor))))
 
@@ -51,9 +51,9 @@
    `(font-lock-keyword-face       ((,class (:foreground ,royal-hemlock/majestic-hemlock :weight bold))))
    `(font-lock-type-face          ((,class (:foreground ,royal-hemlock/majestic-hemlock :weight bold))))
    
-   `(font-lock-comment-face       ((,class (:foreground ,royal-hemlock/grey))))      
+   `(font-lock-comment-face       ((,class (:foreground ,royal-hemlock/grey))))
    `(font-lock-function-name-face ((,class (:foreground ,royal-hemlock/text-colour))))
-   `(font-lock-string-face        ((,class (:foreground ,royal-hemlock/string))))         
+   `(font-lock-string-face        ((,class (:foreground ,royal-hemlock/string))))
    `(font-lock-variable-name-face ((,class (:foreground ,royal-hemlock/black))))
 
    `(line-number              ((,class (:foreground ,royal-hemlock/grey             :background ,royal-hemlock/background :inherit 'default))))
@@ -61,7 +61,6 @@
 
    `(link ((,class (:foreground ,royal-hemlock/majestic-hemlock :underline t :weight bold))))))
 
-(provide-theme 'royal-hemlock-theme)
-(provide 'royal-hemlock-theme)
+(provide-theme 'royal-hemlock)
 
 ;;; royal-hemlock-theme.el ends here
