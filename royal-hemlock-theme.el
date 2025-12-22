@@ -32,7 +32,9 @@
       (royal-hemlock/highlight-background  "#3FFFFF")
       (royal-hemlock/majestic-hemlock      "#0000BB")
       (royal-hemlock/string                "#007F00")
-      (royal-hemlock/text-colour           "#3F3F3F"))
+      (royal-hemlock/text-colour           "#3F3F3F")
+      (royal-hemlock/pink-colour           "#FC55C2")
+      )
 
   (custom-theme-set-faces
    'royal-hemlock
@@ -47,7 +49,7 @@
    `(minibuffer-prompt ((,class (:foreground ,royal-hemlock/majestic-hemlock :weight bold))))
 
    `(font-lock-builtin-face       ((,class (:foreground ,royal-hemlock/majestic-hemlock :weight bold))))
-   `(font-lock-constant-face      ((,class (:foreground ,royal-hemlock/text-colour      :weight bold))))
+   `(font-lock-constant-face      ((,class (:foreground ,royal-hemlock/pink-colour    :weight bold))))      
    `(font-lock-keyword-face       ((,class (:foreground ,royal-hemlock/majestic-hemlock :weight bold))))
    `(font-lock-type-face          ((,class (:foreground ,royal-hemlock/majestic-hemlock :weight bold))))
    
@@ -55,6 +57,8 @@
    `(font-lock-function-name-face ((,class (:foreground ,royal-hemlock/text-colour))))
    `(font-lock-string-face        ((,class (:foreground ,royal-hemlock/string))))
    `(font-lock-variable-name-face ((,class (:foreground ,royal-hemlock/black))))
+   `(font-lock-number-face        ((,class (:foreground ,royal-hemlock/pink-colour    :weight bold))))
+   `(font-lock-escape-face        ((,class (:foreground ,royal-hemlock/majestic-hemlock :weight bold))))   
 
    `(line-number              ((,class (:foreground ,royal-hemlock/grey             :background ,royal-hemlock/background :inherit 'default))))
    `(line-number-current-line ((,class (:foreground ,royal-hemlock/majestic-hemlock :background ,royal-hemlock/background :weight bold :inherit 'default))))
