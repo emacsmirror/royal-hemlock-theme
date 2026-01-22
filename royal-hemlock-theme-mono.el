@@ -20,7 +20,7 @@
 
 ;;; Code:
 
-(deftheme mono-hemlock "Mono Hemlock Theme -- by vs-123.")
+(deftheme royal-hemlock-theme-mono "Mono Hemlock Theme -- by vs-123.")
 
 (let ((class '((class color) (min-colors 24)))
       (mono-hemlock/black                 "#000000")
