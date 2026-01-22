@@ -1,4 +1,4 @@
-;;; mono-hemlock-theme.el --- Soothing monotone-ish light-theme -*- lexical-binding: t; -*-
+;;; royal-hemlock-theme-mono.el --- Soothing monotone-ish light-theme -*- lexical-binding: t; -*-
 
 ;; Copyright (C) 2025 vs-123
 ;; SPDX-License-Identifier: AGPL-3.0-or-later
@@ -35,7 +35,7 @@
       )
 
   (custom-theme-set-faces
-   'mono-hemlock
+   'royal-hemlock-theme-mono
 
    `(cursor  ((,class (:foreground ,mono-hemlock/white :background ,mono-hemlock/black))))
    `(default ((,class (:foreground ,mono-hemlock/text-colour :background ,mono-hemlock/background))))
@@ -65,11 +65,11 @@
 
    `(link ((,class (:foreground ,mono-hemlock/text-colour :underline t :weight bold))))))
 
-(provide-theme 'mono-hemlock)
-
 ;;;###autoload
 (add-to-list
   'custom-theme-load-path
   (if load-file-name (file-name-directory load-file-name) default-directory))
 
-;;; mono-hemlock-theme.el ends here
+(provide-theme 'royal-hemlock-theme-mono)
+
+;;; royal-hemlock-theme-mono.el ends here
