@@ -45,7 +45,7 @@
    `(hl-line ((,class (:background ,royal-hemlock/hl-line-background))))   
    `(isearch ((,class (:foreground ,royal-hemlock/black :background ,royal-hemlock/highlight-background :weight bold))))
    `(region  ((,class (:foreground ,royal-hemlock/black :background ,royal-hemlock/cursor))))
-   `(match  ((,class (:foreground ,mono-hemlock/isearch-background :background ,royal-hemlock/highlight-background))))
+   `(match  ((,class (:foreground ,royal-hemlock/black :background ,royal-hemlock/highlight-background))))
 
    `(mode-line         ((,class (:foreground ,royal-hemlock/white :background ,royal-hemlock/majestic-hemlock :weight bold))))
    `(minibuffer-prompt ((,class (:foreground ,royal-hemlock/majestic-hemlock :weight bold))))
