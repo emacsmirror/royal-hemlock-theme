@@ -2,7 +2,11 @@
 
 [![MELPA](https://melpa.org/packages/royal-hemlock-theme-badge.svg)](https://melpa.org/#/royal-hemlock-theme)
 
-A soothing **light-theme** for Emacs, focused on **royal blue** colour against a warm white background.
+This package provides two themes for Emacs 24+:
+
+- **Royal Hemlock**: A soothing **light-theme** for Emacs, focused on **royal blue** colour against a warm white background.
+
+- **Mono Hemlock**: A soothing **light-theme** for Emacs, focused on **dark grey** colour against a warm white background. A variant of Royal Hemlock.
 
 # Screenshots
 
