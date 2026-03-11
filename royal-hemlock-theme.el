@@ -90,9 +90,6 @@
     ) ;; with-eval-after-load
   )
 
-
-
-
 (provide-theme 'royal-hemlock)
 
 ;;;###autoload
